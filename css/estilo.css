@@ -30,3 +30,26 @@ main{
     padding: 15px;
     margin-top: 15px;
 }
+.content-header{
+    background-color: dimgray;
+    color: white;
+    font-size: 20px;
+    padding: 1px;
+    padding-left: 15px;
+    text-shadow: 3px 3px 5px black;
+
+}
+
+
+
+
+
+
+.content-footer{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    background-color: black;
+}
