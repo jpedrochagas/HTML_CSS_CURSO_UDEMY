@@ -1,0 +1,32 @@
+body{
+        font-size: 22px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: darkgrey;
+        margin: 0px;  
+        }
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+.hero-content{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+
+}
+.hero-content h1{
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black;
+    font-size: 50px;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-top: 15px;
+}
