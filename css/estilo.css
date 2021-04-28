@@ -44,6 +44,13 @@ body{
     text-shadow: 3px 3px 5px black;
     font-size: 50px;
 }
+.hero-content p{
+    background-color: rgba(0,0,0,0.7);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: solid white;
+}
+
 main{
     width: 80%;
     margin: auto;
@@ -53,6 +60,7 @@ main{
     padding: 15px;
     margin-top: 15px;
     border: thin solid;
+    overflow: auto;
 }
 .content-header{
     background-color: dimgray;
@@ -62,6 +70,25 @@ main{
     padding-left: 15px;
     text-shadow: 3px 3px 5px black;
     letter-spacing: 4px;
+}
+.card{
+    width: 32%;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+}
+.card-1,.card-2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card p{
+    width: 100%;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    background-color:darkgray;
 }
 .content-footer{
     margin-top: 30px;
