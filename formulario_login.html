@@ -1,0 +1,69 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Titulo da Página</title>
+    <meta charset="utf-8">
+    <meta name="author" content="João Chagas">
+    <meta name="description" content="Aula HTML E CSS na UDEMY">
+    <meta name="keywords" content="html5, udemy, css, js, curso">
+    <style>
+        .formlogin{
+            width: 250px;
+            margin: auto;
+            font-family: sans-serif;
+        }
+
+        #user, #pass, .btn{
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid black;
+        }
+
+        .formlogin fieldset{
+            background-color: #ccc;
+        }
+
+        .formlogin legend{
+            background-color:bisque;
+            padding: 1px;
+        }
+
+        .formlogin label{
+            margin-top: 30px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .btn{
+            margin-top: 10px;
+        }
+
+        #user{
+            margin-bottom: 10px;
+
+        }
+        #user:focus, #pass:focus{
+            background-color:violet;
+        }
+
+    </style>
+</head>
+    <body>
+        <h1>Formulário de Login</h1>
+        <form action="#" method="POST" class="formlogin">
+            <label for="txtbusca">Faça uma Busca</label>
+            <fieldset>
+                <legend>Login</legend>
+                <label for="user">Digite Usuário</label>
+                <input type="text" id="user" name="user" autofocus>
+
+                <label for="user">Digite Senha</label>
+                <input type="password" id="pass" name="pass">
+                <input type="submit" value="logar" class="btn">
+            </fieldset>
+        </form> 
+    </body>     
+</html>
