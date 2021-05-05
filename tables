@@ -10,8 +10,21 @@
         body{
             font-family: sans-serif;
         }
+        table{
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background-color: burlywood;
+        }
         td{
             border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        th{
+            background-color: red;
+            border: 2px solid black;
+            padding: 1%;
         }
 
 
@@ -44,15 +57,14 @@
             </tr>
 
             <tr>
-                <td>Developement</td>
+                <td rowspan="2">Developement</td>
                 <td>CSS</td>
                 <td>R$ 1.000,00</td>
             </tr>
 
             <tr>
-                <td>Developement</td>
                 <td>javascript</td>
-                <td>R$ 1.000,00</td>
+                <td>R$ 1.000,0000000</td>
             </tr>
         </tbody>
     </table>
