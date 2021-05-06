@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Titulo da Página</title>
+    <meta charset="utf-8">
+    <meta name="author" content="João Chagas">
+    <meta name="description" content="Aula HTML E CSS na UDEMY">
+    <meta name="keywords" content="html5, udemy, css, js, curso">
+    <style>
+    </style>
+</head>
+    <body>
+        <h1>Formulário Exemplos</h1>
+        <form action="#" method="GET" class="formlogin">
+            <fieldset>
+                <legend>DADOS PESSOAIS</legend>
+                <label for="user">EMAIL</label>
+                <input type="email" id="user" name="user" autofocus required>
+            <br>
+                <label for="user">Numero de Filhos</label>
+                <input type="number" min="0" max="3" id="number" name="number">
+            <br>
+                <label for="user">DATE</label>
+                <input type="date" min="2018-01-30" max="2021-05-06" id="date" name="date">
+            <br> 
+                <label for="user">Sexo:</label>
+                <label for="user">Masculino</label>
+                <input type="radio" id="sx" name="sexo" value="M">
+                <label for="user">Feminino</label>
+                <input type="radio" id="sx" name="sexo" value="F">
+                
+            <br>
+                <label for="user">Estado:</label>
+                <select name="ESTADO">
+                <option value="0"> Selecione</option>
+                <option value="SP"> SP</option>
+                <option value="RJ"> RJ</option>
+                <option value="MG"> MG</option>
+                <option value="DF"> DISTRITO FEDERAL</option>
+                </select>
+                <br>
+              
+            </fieldset>
+
+            <fieldset>
+                <label><legend>Areas de interesse</legend>
+                <input type="checkbox" name="html" value="html"> HTML </label>
+
+                    <input type="checkbox" name="html" value="html"> JS </label>
+
+                        <input type="checkbox" name="html" value="html"> CSS </label>
+                
+                            <input type="checkbox" name="html" value="html"> PHP </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Deixei uma Mensagem</legend> 
+                <textarea style="resize: none" name="msg" cols="30" rows="10">
+                Digite sua mensagem </textarea>
+                <label><input type="checkbox"> Li e aceito</label>
+                <br>
+                <input type="time">
+                <input type="range">
+                <input type="color">
+                <br>
+                <input type="submit" value="mandar" class="btn">
+            </fieldset>
+
+
+
+
+
+        </form> 
+    </body>     
+</html>
